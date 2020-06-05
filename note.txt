@@ -1,0 +1,13 @@
+# Create  new .Net core web api project  
+dotnet new webapi -o <project-name>  
+
+example:  
+dotnet new webapi -o WebApiSample1  
+
+# Build command
+# Note: get inside the newly created project and type the below command   
+dotnet build  
+
+#Run the project
+# Note: get inside the newly created project and type the below command   
+dotnet run
