@@ -1,0 +1,15 @@
+ASPNETCORE_ENVIRONMENT =  Development 
+ASPNETCORE_ENVIRONMENT =  Staging 
+ASPNETCORE_ENVIRONMENT =  Production 
+
+//Controller naming guidelines  
+
+1. Create class file with context 
+
+   PatientController 
+
+   [Route("[controller]")]
+   public class PatientController : ControllerBase 
+   {
+
+   }
